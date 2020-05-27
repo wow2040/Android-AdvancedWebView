@@ -565,10 +565,11 @@ public class AdvancedWebView extends WebView {
 				}
 
 				// route the request through the custom URL loading method
-				view.loadUrl(url);
+				//view.loadUrl(url);
 
 				// cancel the original request
-				return true;
+				//return true;
+				return false;
 			}
 
 			@Override
